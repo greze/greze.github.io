@@ -1,0 +1,22 @@
+There is a play and pause button
+
+Each circle represents one note
+
+each column plays at once
+
+each row represents a different tone
+
+clicking a circle fills in the color
+
+if a circle is filled in and the synth is playing, the respective tone will play on the respective beat (column)
+
+after the last column, the process repeats until the user stops it
+
+when two horizontally adjecent circles are filled in, there is no break in the sound
+
+if an entire row is filled, that tone drones
+
+(each tone plays continuously and is just muted when unclicked. so each button is an on/off for a set amount of time...) -> use some kind of framework / web audio api
+
+build an oscillator, don't use samples because they will lag depending on connection
+the buttons are sequencer steps
