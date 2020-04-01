@@ -1,23 +1,47 @@
 body {
-  background-color: #60431f;
+  background-color: #717C89;
 }
 
 #navbar {
-  background-color: #b0934d;
+  background-color: #ADF6B1;
 }
 
-#welcome-section {
-  background-color: #92e181;
+#about {
+  background-color: #A1E5AB;
   height: 100vh;
   padding-top: 7%;
 }
 
-#projects {
-  background-color: #e1c292;
+#content {
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: left;
+  width: : 70%;
+}
+
+#writing {
+  background-color: #90BAAD;
+  height: 50vh;
+}
+
+#music {
+  background-color: #8AA39B;
+  height: 50vh;
+}
+
+#devices {
+  background-color: #8AA2A9;
+  height: 50vh;
+}
+
+#programming {
+  background-color: #90BAAD;
+  height: 100vh;
 }
 
 #contact {
-  background-color: #b0934d;
+  background-color: #A1E5AB;
 
 }
 
